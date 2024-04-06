@@ -15,7 +15,7 @@ class VeiculosSeeder extends Seeder
     public function run()
     {
         Veiculo::create([
-            'foto' => 'caminho/para/a/foto.jpg',
+            'foto' => 'images/veiculos/onix.jpg',
             'cidade' => 'São Paulo',
             'marca' => 'Chevrolet',
             'modelo' => 'Onix',
@@ -28,7 +28,7 @@ class VeiculosSeeder extends Seeder
         ]);
 
         Veiculo::create([
-            'foto' => 'caminho/para/a/foto2.jpg',
+            'foto' => 'images/veiculos/gol.jpeg',
             'cidade' => 'Rio de Janeiro',
             'marca' => 'Volkswagen',
             'modelo' => 'Gol',
@@ -41,7 +41,7 @@ class VeiculosSeeder extends Seeder
         ]);
 
         Veiculo::create([
-            'foto' => 'caminho/para/a/foto3.jpg',
+            'foto' => 'images/veiculos/ka.jpg',
             'cidade' => 'Belo Horizonte',
             'marca' => 'Ford',
             'modelo' => 'Ka',
