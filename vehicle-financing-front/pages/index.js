@@ -6,11 +6,10 @@ export default function Home() {
   return (
     <div>
       <Header />
-        <div className="container mx-auto">
+        <div className="container mx-auto px-5 md:px-20">
           <h1>Simulação de Financiamento</h1>
           <div className="detalhe"></div>
           <ContainerSelect />
-
         </div>
       <Footer />
     </div>

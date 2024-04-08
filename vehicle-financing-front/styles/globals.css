@@ -26,10 +26,41 @@ h2 {
   font-size: 18px;
 }
 
+/* img {
+  width: 30%;
+} */
+
 .detalhe {
   background-color: #7D28F7;
   height: 3px;
   width: 55px;
   border-radius: 22px;
   margin-top: 4px;
+}
+
+.card {
+  width: 35%;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.local {
+  display: flex;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-top: -40px;
+  border-radius: 0px 16px 16px 0px;
+  width: 131px;
+  padding-left: 5px;
+  padding: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Roboto;
+}
+
+@media (max-width: 768px){
+  .card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
