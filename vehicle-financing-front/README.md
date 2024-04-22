@@ -32,6 +32,6 @@ Após configurar o ambiente, você pode executar o projeto usando os seguintes c
 
 Fique à vontade para enviar sugestões, relatar problemas ou enviar solicitações de pull request para contribuir com o projeto.
 
-## Autores
+## Autor
 
 - [Kelvin Nicolau](https://github.com/kelvinnicolau) - Desenvolvedor Full-Stack
